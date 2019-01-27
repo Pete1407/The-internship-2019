@@ -126,7 +126,7 @@ public class hangman {
 				  }
 			  }
  
-	    System.out.printf("Are you ready to play or exit ??? (1/2): ");
+	    System.out.printf("Are you ready to 1.play or 2.exit ??? (1/2): ");
 	    
 	    int choose = 0;
 	    int score = 0;
@@ -359,7 +359,7 @@ public class hangman {
 		
 		
 			  
-	    System.out.println("Are you ready to play or exit ??? (1/2): ");
+	    System.out.println("Are you ready to 1.play or 2.exit ??? (1/2): ");
 	    int choose = 0;
 	    int score = 0;
 	    char miss = ' ';
@@ -584,7 +584,7 @@ public class hangman {
 		
 		
 			  
-	    System.out.printf("Are you ready to play or exit ??? (1/2): ");
+	    System.out.printf("Are you ready to 1.play or 2.exit ??? (1/2): ");
 	    int choose = 0;
 	    int score = 0;
 	    char miss = ' ';
