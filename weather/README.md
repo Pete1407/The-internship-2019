@@ -1,3 +1,4 @@
+ข้อที่ 2 : weather
 ชื่อ - นามสกุล : พิทวัส ปรีชาบริสุทธิ์กุล
 email : pete.pittawas@gmail.com
 เบอร์โทรศัพท์ : 095 - 9409514
@@ -8,4 +9,6 @@ email : pete.pittawas@gmail.com
 4.ให้ทำการเลือกที่อยู่ของไฟล์และ save ไฟล์เป็น .json
 5.โปรแกรมจะแจ้งว่า "save file completed."
 6.เราสามารถดูผลลัพธ์ได้จากที่อยู่ของไฟล์ที่เราได้ทำการ save ไว้
+
+แหล่งที่มาของโค้ดในส่วนของการเข้าถึงข้อมูลไฟล์ XML : https://www.youtube.com/watch?v=HfGWVy-eMRc&t=159s
 
