@@ -14,7 +14,7 @@ public class hangman {
 		int check_zero = 0;
 		System.out.println("------------------------");
 		System.out.println("Select Category:(1/2/3) or exit(4)");
-		System.out.println("1.One Piece");
+		System.out.println("1.Food");
 		System.out.println("2.Country");
 		System.out.println("3.Famous Song");
 		System.out.println("------------------------");
@@ -27,15 +27,15 @@ public class hangman {
 		String hint = null;
 		Random rand = new Random();
 		int i = 0;
-		int live = 5;
+		int live = 10;
 		int digit = 0;
 		
 		if(input==1)
 		{
 			
-			path += "/onepiece.txt";
+			path += "/food.txt";
 			
-		    System.out.println("You chose one piece.");
+		    System.out.println("You chose food.");
 			try 
 			{
 				BufferedReader read = new BufferedReader(new FileReader(path));
@@ -152,19 +152,19 @@ public class hangman {
 	    {
 	    	
 	    	
-	    	if(txt.equals("bigmom"))
+	    	if(txt.equals("suchi") || txt.equals("ramen"))
 			{
-				hint = "four emperor";
+				hint = "Japan";
 				System.out.println("Hint:"+"\""+hint+"\"");
 			}
-			else if(txt.equals("lufy") || txt.equals("sanji") || txt.equals("solo"))
+			else if(txt.equals("phat thai") || txt.equals("tom yum kung"))
 			{
-				hint = "Straw Pirate";
+				hint = "Thailand";
 				System.out.println("Hint:"+"\""+hint+"\"");
 			}
-			else if(txt.equals("do flamingos"))
+			else if(txt.equals("pizza"))
 			{
-				hint = "Seven Warlords";
+				hint = "Italy";
 				System.out.println("Hint:"+"\""+hint+"\"");
 			}
 	    	
