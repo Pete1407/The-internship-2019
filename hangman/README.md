@@ -5,7 +5,7 @@ email : pete.pittawas@gmail.com
 วิธีการรันโปรแกรม
 1.รันโปรแกรมโดยใช้ eclipse ในการรัน
 2.ทำการสร้างโปรเจค
-3.นำไฟล์ onepiece.txt ,famous_song.txt ,country.txt และ hangman.java ใส่ในโฟลเดอร์ src ของโปรเจค
+3.นำไฟล์ food.txt ,famous_song.txt ,country.txt และ hangman.java ใส่ในโฟลเดอร์ src ของโปรเจค
 4.กดรันโปรแกรมที่ไฟล์ hangman.java
 5.เมื่อกดรันโปรแกรม โปรแกรมจะถาม user ว่าเลือกหมวดไหนโดยให้ user กรอกตัวเลขตามหมวด
 6.เมื่อเลือกหมวดเรียบร้อย โปรแกรมจะแจ้งว่า user เลือกหมวดไหน
